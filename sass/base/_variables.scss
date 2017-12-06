@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Knewave|Cabin);
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url("../fonts/Uni\ Sans\ Heavy.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url("../fonts/Uni\ Sans\ Thin.otf");
+    font-weight: lighter;
+}
+
+$hp-gutter: 50px;
+$hp-half-gutter: 25px;
+$logo-img-width: 200px;
+$logo-font-size: 3.5rem;

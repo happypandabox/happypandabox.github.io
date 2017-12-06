@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Knewave|Cabin);
+@font-face {
+  font-family: "Uni Sans";
+  src: url("../fonts/Uni Sans Heavy.otf");
+  font-weight: bold; }
+@font-face {
+  font-family: "Uni Sans";
+  src: url("../fonts/Uni Sans Thin.otf");
+  font-weight: lighter; }
+body {
+  margin: 0; }
+
+.content-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fedd00; }
+  .content-wrapper .inner-wrapper {
+    width: 60vw;
+    background-color: #fedd00;
+    min-width: 640px; }
+
+input {
+  border: 0;
+  padding: 18px 18px 10px 15px;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  border-radius: 0;
+  font-family: "Uni Sans", "Arial", "sans-serif";
+  font-weight: bold;
+  border-bottom: 2px solid #e2b607;
+  border-right: 2px solid #e2b607;
+  -webkit-box-shadow: inset 0 -2px #e2b607;
+  box-shadow: inset 0 -2px #e2b607;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 25px 0; }
+  .text-wrapper .message-wrapper {
+    flex: 1;
+    text-align: right;
+    font-family: "Uni Sans", "Arial", "sans-serif";
+    font-size: 2rem;
+    padding-right: 50px;
+    border-right: solid 1px black;
+    font-weight: bold; }
+  .text-wrapper .cta-wrapper {
+    flex: 1;
+    text-align: left;
+    font-family: "Uni Sans", "Arial", "sans-serif";
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 50px; }
+
+.company-logo {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 25px 0; }
+  .company-logo .cta-company-name {
+    font-family: "Knewave", "Open Sans", "Verdana", "Arial", sans-serif;
+    letter-spacing: 3px;
+    /*font-weight: 600;*/
+    font-size: 3.5rem;
+    line-height: 4rem;
+    padding-right: 25px; }
+  .company-logo .happy-panda {
+    width: 200px; }
+
+.form-wrapper {
+  padding: 25px; }
+  .form-wrapper #mc_embed_signup_scroll {
+    display: flex;
+    justify-content: center; }
+    .form-wrapper #mc_embed_signup_scroll .separator {
+      flex: 1; }
+    .form-wrapper #mc_embed_signup_scroll .left {
+      text-align: right; }
+    .form-wrapper #mc_embed_signup_scroll .right {
+      text-align: left; }
+    .form-wrapper #mc_embed_signup_scroll #mce-EMAIL {
+      width: 250px; }
+    .form-wrapper #mc_embed_signup_scroll #mc-embedded-subscribe {
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
