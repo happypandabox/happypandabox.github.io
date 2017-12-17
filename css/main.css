@@ -92,5 +92,10 @@ input {
     .form-wrapper #mc_embed_signup_scroll #mc-embedded-subscribe {
       cursor: pointer;
       background-color: white; }
+  .form-wrapper .cta {
+    font-family: "Uni Sans", "Arial", "sans-serif";
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
