@@ -21,4 +21,19 @@
   .happy-panda {
     width: $logo-img-width;
   }
+
+  @media (max-device-width: 480px) {
+    .cta-company-name {
+      font-family: "Knewave", "Open Sans", "Verdana", "Arial", sans-serif;
+      letter-spacing: 3px;
+      /*font-weight: 600;*/
+      font-size: $logo-font-size-mobile;
+      line-height: $logo-line-height-mobile;
+      padding-right: $hp-half-gutter;
+    }
+
+    .happy-panda {
+      width: $logo-img-width-mobile;
+    }
+  }
 }

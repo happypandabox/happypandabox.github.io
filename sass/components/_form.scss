@@ -32,4 +32,41 @@
     text-align: center;
     padding: 10px;
   }
+
+  @media (max-device-width: 480px) {
+    #mc_embed_signup_scroll {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .separator {
+        flex: 1;
+        padding-bottom: 5px;
+      }
+
+      .left {
+        text-align: right;
+        padding-bottom: 10px;
+      }
+
+      .right {
+        text-align: left;
+      }
+      #mce-EMAIL {
+        width: auto;
+      }
+
+      #mc-embedded-subscribe {
+        cursor: pointer;
+        background-color: white;
+      }
+    }
+    .cta {
+      font-family: "Uni Sans", "Arial", "sans-serif";
+      font-weight: lighter;
+      text-align: center;
+      padding: 10px;
+      font-size: 2.7rem;
+    }
+  }
 }

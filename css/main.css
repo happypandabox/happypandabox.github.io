@@ -24,6 +24,10 @@ body {
     width: 60vw;
     background-color: #fedd00;
     min-width: 640px; }
+  @media (max-device-width: 480px) {
+    .content-wrapper .inner-wrapper {
+      width: 90vw;
+      background-color: #fedd00; } }
 
 input {
   border: 0;
@@ -39,6 +43,20 @@ input {
   box-shadow: inset 0 -2px #e2b607;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
 
+@media (max-device-width: 480px) {
+  input {
+    border: 0;
+    padding: 18px 18px 10px 15px;
+    margin: 0 10px;
+    font-size: 2.7rem;
+    border-radius: 0;
+    font-family: "Uni Sans", "Arial", "sans-serif";
+    font-weight: bold;
+    border-bottom: 2px solid #e2b607;
+    border-right: 2px solid #e2b607;
+    -webkit-box-shadow: inset 0 -2px #e2b607;
+    box-shadow: inset 0 -2px #e2b607;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); } }
 .text-wrapper {
   display: flex;
   justify-content: center;
@@ -60,6 +78,27 @@ input {
     font-size: 2rem;
     padding-left: 50px; }
 
+@media (max-device-width: 480px) {
+  .text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 0; }
+    .text-wrapper .message-wrapper {
+      flex: 1;
+      text-align: right;
+      font-family: "Uni Sans", "Arial", "sans-serif";
+      font-size: 2.7rem;
+      padding-right: 25px;
+      border-right: solid 1px black;
+      font-weight: bold; }
+    .text-wrapper .cta-wrapper {
+      flex: 1;
+      text-align: left;
+      font-family: "Uni Sans", "Arial", "sans-serif";
+      font-weight: bold;
+      font-size: 2.7rem;
+      padding-left: 25px; } }
 .company-logo {
   height: 50%;
   display: flex;
@@ -75,6 +114,16 @@ input {
     padding-right: 25px; }
   .company-logo .happy-panda {
     width: 200px; }
+  @media (max-device-width: 480px) {
+    .company-logo .cta-company-name {
+      font-family: "Knewave", "Open Sans", "Verdana", "Arial", sans-serif;
+      letter-spacing: 3px;
+      /*font-weight: 600;*/
+      font-size: 6rem;
+      line-height: 6.5rem;
+      padding-right: 25px; }
+    .company-logo .happy-panda {
+      width: 350px; } }
 
 .form-wrapper {
   padding: 25px; }
@@ -97,5 +146,29 @@ input {
     font-weight: lighter;
     text-align: center;
     padding: 10px; }
+  @media (max-device-width: 480px) {
+    .form-wrapper #mc_embed_signup_scroll {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .form-wrapper #mc_embed_signup_scroll .separator {
+        flex: 1;
+        padding-bottom: 5px; }
+      .form-wrapper #mc_embed_signup_scroll .left {
+        text-align: right;
+        padding-bottom: 10px; }
+      .form-wrapper #mc_embed_signup_scroll .right {
+        text-align: left; }
+      .form-wrapper #mc_embed_signup_scroll #mce-EMAIL {
+        width: auto; }
+      .form-wrapper #mc_embed_signup_scroll #mc-embedded-subscribe {
+        cursor: pointer;
+        background-color: white; }
+    .form-wrapper .cta {
+      font-family: "Uni Sans", "Arial", "sans-serif";
+      font-weight: lighter;
+      text-align: center;
+      padding: 10px;
+      font-size: 2.7rem; } }
 
 /*# sourceMappingURL=main.css.map */
